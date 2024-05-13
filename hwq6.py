@@ -23,14 +23,18 @@ print("The value has changed for the first t value from 80 to 180 when parenthes
 # Task 2: Mix and Match
 # Combine arithmetic (+), logical (or), and comparison (>) operators in a single expression and predict the outcome. 
 # Then, compute the expression to see if the prediction was correct.
+
+# Correction -- prediction and explanation more clearer-- Edited for 2nd submission
+print(" ")
 x = 20
 y = 40
 z = 60
 total = x + (y or x) + (z > x)
 
-print("Prediction : I believe that it may return an ERROR Message.")
-
-print("Actual Result below")
+print("Prediction : I believe that it may return an ERROR Message. This is because a Boolean is combined with Addition. ")
+print(" ")
+print("Explanation : Actual Result below. This happened because (y or x) returns 40 then (z > x) returns True then when ((y or x) + (z > x)) it becomes 41 ")
+print("then it adds with x which makes 41 + 20 = 61. This is how the result came to be.")
 
 print(total)
 

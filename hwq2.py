@@ -12,8 +12,11 @@ PIVALUE = 3.14
 userAge = 25
 #snake_case
 user_location = "New York"
+
 #This is a constant since it is in ALL Caps. Leave it alone
-MAXLIMIT = 1000
+# Correction -- make it _ by MAXLIMIT to MAX_LIMIT -- Edited for 2nd submission
+
+MAX_LIMIT = 1000
 
 
 
