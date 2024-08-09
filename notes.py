@@ -37,4 +37,5 @@ LESSON 1: Database Fundamentals
 
 #Entity-Relationship Diagrams (ERDs) --> like maps (of a city)
 # Components of ERD --> Entities, Attributes, and Relationships
-
+x = 1 
+print(x)
